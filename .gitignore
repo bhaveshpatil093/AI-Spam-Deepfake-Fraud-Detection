@@ -1,0 +1,58 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# AWS credentials
+.aws/
+*.pem
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Compiled files
+*.class
+*.o
+*.so
+
+# Node.js for Amplify UI
+node_modules/
+build/
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+
+# CloudFormation generated files
+*.stack-output.json
+*.template.json
+
+# Test and debug files
+tests/__pycache__/
+coverage/
+*.coverage
+
+# Others
+*.zip
+*.tar.gz
+*.egg-info/
