@@ -101,8 +101,8 @@ What sets this project apart:
 
 ## Documentation
 For detailed documentation, refer to the `docs` folder:
-- `[Project Overview]([url](https://github.com/bhaveshpatil093/AI-Spam-Deepfake-Fraud-Detection/blob/main/docs/Project_Overview.md))`
-- `[System Workflow]([url](https://github.com/bhaveshpatil093/AI-Spam-Deepfake-Fraud-Detection/blob/main/docs/System_Workflow.md))`
+- `Project Overview`
+- `System Workflow`
 - `PPT Presentation`
 
 ## Contributing
