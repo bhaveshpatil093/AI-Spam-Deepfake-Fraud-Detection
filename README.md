@@ -99,11 +99,15 @@ What sets this project apart:
   ```bash
    pytest tests/
 
+---
+
 ## 📄 Documentation
 For detailed documentation, refer to the `docs` folder:
 - 📃 `Project Overview`
 - 🛠️ `System Workflow`
 - 📊 `PPT Presentation`
+
+---
 
 ## 🤝 Contributing
 1. Fork the repository.
@@ -113,8 +117,12 @@ For detailed documentation, refer to the `docs` folder:
 
 3. Commit your changes and create a pull request.
 
+---
+
 ## 📜 License
 This project is licensed under the `MIT License`.
+
+---
 
 ## 📬 Contact
 For queries, reach out to:
