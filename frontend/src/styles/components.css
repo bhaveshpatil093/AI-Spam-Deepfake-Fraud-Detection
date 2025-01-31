@@ -1,0 +1,247 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-logo .logo-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-left: 1.5rem;
+}
+
+.navbar-links .nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links .nav-link:hover {
+  color: #ffdd57; /* Yellow color on hover */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333; /* Dark background */
+  color: white;
+  padding: 2rem 1rem;
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #007bff; /* Blue color */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid #444; /* Light border */
+  margin-top: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #aaa; /* Light gray color */
+}
+
+/* Alert Styles */
+.alert {
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.alert.success {
+  background-color: #d4edda; /* Light green */
+  border: 1px solid #c3e6cb;
+  color: #155724; /* Dark green */
+}
+
+.alert.error {
+  background-color: #f8d7da; /* Light red */
+  border: 1px solid #f5c6cb;
+  color: #721c24; /* Dark red */
+}
+
+.alert.warning {
+  background-color: #fff3cd; /* Light yellow */
+  border: 1px solid #ffeeba;
+  color: #856404; /* Dark yellow */
+}
+
+.alert.info {
+  background-color: #d1ecf1; /* Light blue */
+  border: 1px solid #bee5eb;
+  color: #0c5460; /* Dark blue */
+}
+
+.alert-message {
+  flex-grow: 1;
+}
+
+.alert-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: inherit;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.alert-close:hover {
+  opacity: 0.8;
+}
+
+/* Upload Form Styles */
+.upload-form-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.upload-form-container h2 {
+  font-size: 1.8rem;
+  color: #007bff; /* Blue color */
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa; /* Light gray background */
+  cursor: pointer;
+}
+
+.form-group input[type="file"]:focus {
+  border-color: #007bff; /* Blue color */
+  outline: none;
+}
+
+.upload-button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff; /* Blue color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:disabled {
+  background-color: #ccc; /* Gray when disabled */
+  cursor: not-allowed;
+}
+
+.upload-button:hover:not(:disabled) {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error-message {
+  color: #dc3545; /* Red color */
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.success-message {
+  color: #28a745; /* Green color */
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: center;
+}
