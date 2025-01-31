@@ -1,17 +1,79 @@
-/* Footer Container */
-.footer-container {
-  width: 100%;
-  background-color: #282c34;
+/* Footer container */
+.footer {
+  background-color: #333; /* Dark background */
   color: white;
-  text-align: center;
-  padding: 1rem 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  padding: 2rem 1rem;
+  margin-top: auto; /* Push footer to the bottom */
 }
 
-/* Footer Text */
-.footer-text {
-  font-size: 1rem;
+/* Footer content */
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Footer sections */
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #007bff; /* Blue color */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+/* Social Media Links */
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 1px solid #444; /* Light border */
+  margin-top: 1rem;
+}
+
+.footer-bottom p {
   margin: 0;
+  font-size: 0.9rem;
+  color: #aaa; /* Light gray color */
 }
