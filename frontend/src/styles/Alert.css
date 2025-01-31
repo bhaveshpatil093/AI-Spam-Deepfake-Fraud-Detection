@@ -1,0 +1,55 @@
+/* Base Alert Styling */
+.alert {
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+/* Alert Types */
+.alert.success {
+  background-color: #d4edda; /* Light green */
+  border: 1px solid #c3e6cb;
+  color: #155724; /* Dark green */
+}
+
+.alert.error {
+  background-color: #f8d7da; /* Light red */
+  border: 1px solid #f5c6cb;
+  color: #721c24; /* Dark red */
+}
+
+.alert.warning {
+  background-color: #fff3cd; /* Light yellow */
+  border: 1px solid #ffeeba;
+  color: #856404; /* Dark yellow */
+}
+
+.alert.info {
+  background-color: #d1ecf1; /* Light blue */
+  border: 1px solid #bee5eb;
+  color: #0c5460; /* Dark blue */
+}
+
+/* Alert Message */
+.alert-message {
+  flex-grow: 1;
+}
+
+/* Close Button */
+.alert-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: inherit;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.alert-close:hover {
+  opacity: 0.8;
+}
